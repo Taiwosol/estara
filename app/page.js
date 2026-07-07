@@ -135,9 +135,9 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-12">
             How We Work
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-24 lg:gap-32 items-start">
             <div className="order-2 md:order-1">
-              <p className="text-2xl md:text-3xl lg:text-4xl leading-relaxed text-gray-700">
+              <p className="text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-600">
                 At Estara, we believe the future of real estate is not just
                 about listings; it's about creating an engaging and interactive
                 experience. We understand that traditional text descriptions
@@ -146,7 +146,7 @@ export default function Home() {
                 multimedia.
               </p>
             </div>
-            <div className="order-1 md:order-2 relative aspect-[4/3]">
+            <div className="order-1 md:order-2 relative aspect-[3/4] md:aspect-[2/3] lg:aspect-[1/1.2]">
               <Image
                 src="/how-img.png"
                 alt="How we work"
