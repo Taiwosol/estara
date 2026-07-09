@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import HeroNavbar from "@/components/HeroNavbar";
 import AnimatedCounter from "@/components/AnimatedCounter";
+import TestimonialSection from "@/components/TestimonialSection";
+import FAQSection from "@/components/FAQSection";
+import CTASection from "@/components/CTASection";
 
 export default function Home() {
   return (
@@ -18,13 +21,13 @@ export default function Home() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-black/30"></div>
+          <div className="absolute inset-0 bg-black/70"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-8 h-[100vh] flex flex-col justify-end pb-16 md:justify-center md:pb-0">
           <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
             <div>
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white leading-tight mb-6 max-w-2xl">
+              <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-6 max-w-2xl">
                 Luxury homes, <br />
                 thoughtfully curated.
               </h1>
@@ -37,13 +40,13 @@ export default function Home() {
             <div className="flex gap-4">
               <Link
                 href="/contact"
-                className="px-8 py-4 border-2 border-white text-white font-medium hover:bg-white hover:text-black transition-colors text-center"
+                className="px-8 py-4 border-2 border-white text-white font-medium hover:bg-white hover:text-black transition-colors cursor-pointer text-center"
               >
                 Book a Viewing
               </Link>
               <Link
                 href="/properties"
-                className="px-8 py-4 bg-white text-black font-medium hover:bg-gray-100 transition-colors text-center"
+                className="px-8 py-4 bg-white text-black font-medium hover:bg-gray-100 transition-colors cursor-pointer text-center"
               >
                 All properties
               </Link>
@@ -157,6 +160,15 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Testimonial Section */}
+      <TestimonialSection />
+
+      {/* FAQ Section */}
+      <FAQSection />
+
+      {/* CTA Section */}
+      <CTASection />
     </div>
   );
 }
