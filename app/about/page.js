@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import CTASection from "@/components/CTASection";
 
 export default function AboutPage() {
@@ -44,9 +45,12 @@ export default function AboutPage() {
             dedication to quality and our agility in responding to the dynamic
             shifts in the real estate market.
           </p>
-          <button className="px-8 py-4 bg-black text-white font-medium hover:bg-gray-800 transition-all hover:-translate-y-2">
+          <Link
+            href="/contact"
+            className="inline-block px-8 py-4 bg-black text-white font-medium hover:bg-gray-800 transition-all hover:-translate-y-2 cursor-pointer"
+          >
             Contact Us
-          </button>
+          </Link>
         </div>
       </section>
 
