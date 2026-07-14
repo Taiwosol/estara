@@ -10,10 +10,13 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { label: "Instagram", href: "#" },
-    { label: "Twitter(x)", href: "#" },
-    { label: "YouTube", href: "#" },
-    { label: "LinkedIn", href: "#" },
+    { label: "Instagram", href: "https://www.instagram.com/taiwo_ayans" },
+    { label: "Twitter(x)", href: "https://x.com/taiwoayans" },
+    { label: "YouTube", href: "https://www.youtube.com" },
+    {
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/ayanrinde-taiwo-649ab334",
+    },
   ];
 
   return (
@@ -49,7 +52,7 @@ export default function Footer() {
             <div className="flex flex-col space-y-6">
               <div className="flex flex-col space-y-1">
                 <Link
-                  href="mailto:hello@estara.com"
+                  href="mailto:ayanrindetaiwo2@gmail.com"
                   className="group relative text-xl font-medium overflow-hidden inline-block w-fit"
                 >
                   <span className="inline-block transform transition-transform duration-300 group-hover:-translate-y-full">
@@ -65,14 +68,14 @@ export default function Footer() {
                   Collaboration
                 </h4>
                 <Link
-                  href="mailto:work@estara.com"
+                  href="mailto:ayanrindetaiwo2@gmail.com"
                   className="group relative text-xl font-medium overflow-hidden inline-block w-fit"
                 >
                   <span className="inline-block transform transition-transform duration-300 group-hover:-translate-y-full">
-                    work@estara.com
+                    hello@estara.com
                   </span>
                   <span className="absolute inset-0 inline-block transform translate-y-full transition-transform duration-300 group-hover:translate-y-0">
-                    work@estara.com
+                    hello@estara.com
                   </span>
                 </Link>
               </div>
@@ -81,14 +84,14 @@ export default function Footer() {
                   Press
                 </h4>
                 <Link
-                  href="mailto:press@estara.com"
+                  href="mailto:hello@estara.com"
                   className="group relative text-xl font-medium overflow-hidden inline-block w-fit"
                 >
                   <span className="inline-block transform transition-transform duration-300 group-hover:-translate-y-full">
-                    press@estara.com
+                    hello@estara.com
                   </span>
                   <span className="absolute inset-0 inline-block transform translate-y-full transition-transform duration-300 group-hover:translate-y-0">
-                    press@estara.com
+                    hello@estara.com
                   </span>
                 </Link>
               </div>

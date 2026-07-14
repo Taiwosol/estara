@@ -4,7 +4,7 @@ import { blogs } from "@/data/blogs";
 
 export default function BlogsPage() {
   return (
-    <section className="py-20 px-8">
+    <section className="py-12 px-8">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-4xl md:text-5xl lg:text-5xl font-black mb-12">
           Blog

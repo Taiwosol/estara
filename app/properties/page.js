@@ -6,7 +6,7 @@ export default function PropertiesPage() {
   return (
     <div className="flex flex-col flex-1">
       {/* Intro Section */}
-      <section className="py-20 px-8">
+      <section className="py-12 px-8">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-normal mb-12">
             Explore Properties

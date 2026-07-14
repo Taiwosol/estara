@@ -5,6 +5,7 @@ import AnimatedCounter from "@/components/AnimatedCounter";
 import TestimonialSection from "@/components/TestimonialSection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
+import PropertiesSection from "@/components/PropertiesSection";
 
 export default function Home() {
   return (
@@ -56,7 +57,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-20 px-8 bg-white">
+      <section className="py-12 px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <p className="text-2xl md:text-3xl lg:text-4xl leading-normal font-normal mb-12">
             At Estara, we pride ourselves on bridging the gap between
@@ -89,7 +90,7 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 px-8 bg-white">
+      <section className="py-12 px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-8">
             <div>
@@ -120,6 +121,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Properties Section */}
+      <PropertiesSection />
+
       {/* Home Image 02 Section */}
       <section className="px-8">
         <div className="relative w-full aspect-video">
@@ -133,7 +137,7 @@ export default function Home() {
       </section>
 
       {/* How We Work Section */}
-      <section className="py-20 px-8 bg-white">
+      <section className="py-12 px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-12">
             How We Work

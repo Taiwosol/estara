@@ -53,10 +53,10 @@ export default function TestimonialSection() {
   ];
 
   return (
-    <section className="py-20 px-8 bg-white overflow-hidden">
+    <section className="py-12 px-8 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-12">
-          What Top Clients <br></br> Say About Us
+          What Top Clients <br /> Say About Us
         </h2>
 
         {/* Desktop - Animated Rows */}
@@ -91,35 +91,6 @@ export default function TestimonialSection() {
           <MobileCarousel />
         </div>
       </div>
-
-      {/* CSS for animations */}
-      <style jsx>{`
-        @keyframes scrollLeft {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-33.333%);
-          }
-        }
-
-        @keyframes scrollRight {
-          0% {
-            transform: translateX(-33.333%);
-          }
-          100% {
-            transform: translateX(0);
-          }
-        }
-
-        .animate-scroll-left {
-          animation: scrollLeft 40s linear infinite;
-        }
-
-        .animate-scroll-right {
-          animation: scrollRight 40s linear infinite;
-        }
-      `}</style>
     </section>
   );
 }

@@ -28,7 +28,7 @@ export default function BlogPostPage() {
 
   return (
     <article>
-      <section className="py-16 px-8">
+      <section className="py-12 px-8">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-12 leading-tight">
             {blog.title}
@@ -65,7 +65,7 @@ export default function BlogPostPage() {
         </div>
       </section>
 
-      <section className="px-8 pb-20">
+      <section className="px-8 pb-12">
         <div className="max-w-5xl mx-auto">
           {blog.content.map((paragraph, index) => (
             <p

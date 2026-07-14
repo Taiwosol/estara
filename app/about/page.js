@@ -5,7 +5,7 @@ export default function AboutPage() {
   return (
     <div className="flex flex-col flex-1">
       {/* Intro Section */}
-      <section className="py-20 px-8">
+      <section className="py-12 px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-end mb-12">
             <div>
@@ -51,7 +51,7 @@ export default function AboutPage() {
       </section>
 
       {/* Values Section */}
-      <section className="py-20 px-8">
+      <section className="py-12 px-8">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-12 max-w-[40%]">
           It's not about the numbers, but they do tell a story.
         </h2>
@@ -149,7 +149,7 @@ export default function AboutPage() {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 px-8">
+      <section className="py-12 px-8">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl lg:text-5xl font-normal mb-12">
             Meet Our Team
